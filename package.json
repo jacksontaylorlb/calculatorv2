@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "express calc",
   "main": "calculator.js",
-"scripts": {
-  "start": "node server.js"
-},
+  "scripts": {
+    "start": "node server.js",
+    "build":"browserify server.js -o bundle.js"
+  },
   "dependencies": {
+    "browserify": "^16.2.3",
     "express": "4.16.4"
   },
   "author": "jackson taylor",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "browserify":"^16.2.3"
+  }
 }
