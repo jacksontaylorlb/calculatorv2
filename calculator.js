@@ -1,7 +1,7 @@
 //const webpack = require('webpack')
 
-var express = require("express");
-var app = express();
+//var express = require("express");
+//var app = express();
 var PORT = 8080;
 
 app.get('/:operator/:num1/:num2', function(req,res){
