@@ -1,21 +1,14 @@
 {
   "name": "expresscalculator",
-  "version": "0.0.0",
-  "private": true,
-  "main":"calculator.js",
-  "scripts": {
-    "start": "./calculator.js"
-  },
+  "version": "1.0.0",
+  "description": "express calc",
+  "main": "calculator.js",
+"scripts": {
+  "start": "node server.js"
+},
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
-  }
+    "express": "4.16.4"
+  },
+  "author": "jackson taylor",
+  "license": "ISC"
 }
-
-
-
-
